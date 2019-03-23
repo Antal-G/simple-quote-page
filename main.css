@@ -1,7 +1,7 @@
 /* CSS reset */
 * {
   box-sizing: border-box;
-  }
+}
 
 body {
   background: url('assets/freedom.jpg') no-repeat center fixed;
@@ -12,34 +12,36 @@ body {
 
 .float-right {
   float: right;
+
 }
-  .navi {
-    float: right;
-    margin-top: 1%;
-    list-style: none;
-  }
 
-  li {
-    float: right
-  }
-  
-  .wrapper {
-    
-    position: relative;
-    top: 5rem;
-    width: 90%;
-    text-align: center;
-    padding-top: 2rem;
-  }
+.navi {
+  margin-top: 5%;
+  list-style: none;
+  padding: 10%;
+}
 
-  .quote {
-    font-size: 2.5rem;
-    padding: 1.5rem;
-  }
+li {
+  float: right;
+}
 
-  .author {
-    font-family: 'Crimson Text', serif;
-    font-size: 1.5rem;
-    font-style: italic;
-    margin: 15% auto;
-  }
+.wrapper {
+  font-family: 'Julius Sans One', sans-serif;
+  position: relative;
+  top: 5rem;
+  width: 90%;
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.quote {
+  font-size: 2.5rem;
+  padding: 1.5rem;
+}
+
+.author {
+  font-family: 'Crimson Text', serif;
+  font-size: 1.5rem;
+  font-style: italic;
+  margin: 15% auto;
+}
