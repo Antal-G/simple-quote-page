@@ -10,33 +10,36 @@ body {
   font-family: 'Julius Sans One', sans-serif;
 }
 
-.float-right {
-  float: right;
-
-}
-
 .navi {
-  margin-top: 5%;
-  list-style: none;
-  padding: 10%;
+  float: right;
+  width: 100%;
+  padding: 1rem;
 }
 
 li {
   float: right;
 }
 
+li a {
+  display: block;
+  padding: 0.3rem;
+  }
+
 .wrapper {
   font-family: 'Julius Sans One', sans-serif;
   position: relative;
-  top: 5rem;
+  top: 2rem;
   width: 90%;
   text-align: center;
   padding-top: 2rem;
+  margin: 0 auto;
+  line-height: 3rem;
 }
 
 .quote {
   font-size: 2.5rem;
   padding: 1.5rem;
+  letter-spacing: 0.6rem;
 }
 
 .author {
@@ -44,4 +47,9 @@ li {
   font-size: 1.5rem;
   font-style: italic;
   margin: 15% auto;
+}
+
+img {
+  width: 30px;
+  height: 15px;
 }
